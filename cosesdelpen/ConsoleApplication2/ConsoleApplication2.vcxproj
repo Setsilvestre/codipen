@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{7472A410-F71B-4973-9A7C-ED5828629FEF}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>ConsoleApplication2</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Users\Xavi\Desktop\ConsoleApplication2\ConsoleApplication2\SDL\SDL-1.2.5\include;C:\Users\Xavi\Desktop\ConsoleApplication2\ConsoleApplication2\SDL\SDL_ttf-2.0.5\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\Xavi\Desktop\ConsoleApplication2\ConsoleApplication2\SDL\SDL-1.2.5\lib;C:\Users\Xavi\Desktop\ConsoleApplication2\ConsoleApplication2\SDL\SDL_ttf-2.0.5\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Users\xfiguerola\Documents\Visual Studio 2013\Projects\ConsoleApplication2\ConsoleApplication2\SDL\SDL-1.2.5\include;C:\Users\xfiguerola\Documents\Visual Studio 2013\Projects\ConsoleApplication2\ConsoleApplication2\SDL\SDL_ttf-2.0.5\include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Users\xfiguerola\Documents\Visual Studio 2013\Projects\ConsoleApplication2\ConsoleApplication2\SDL\SDL-1.2.5\lib;C:\Users\xfiguerola\Documents\Visual Studio 2013\Projects\ConsoleApplication2\ConsoleApplication2\SDL\SDL_ttf-2.0.5\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>sdl.lib;sdlmain.lib;SDL_TTF.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_WARNINGS;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>sdl.lib;sdlmain.lib;SDL_TTF.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Character.cpp" />
+    <ClCompile Include="Enemy.cpp" />
+    <ClCompile Include="FSM.cpp" />
+    <ClCompile Include="GameEngine.cpp" />
+    <ClCompile Include="Hero.cpp" />
+    <ClCompile Include="Map.cpp" />
+    <ClCompile Include="MapEnemies.cpp" />
+    <ClCompile Include="MapObjects.cpp" />
+    <ClCompile Include="Object.cpp" />
+    <ClCompile Include="Ranking.cpp" />
+    <ClCompile Include="SDLHelpers.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Character.h" />
+    <ClInclude Include="Enemy.h" />
+    <ClInclude Include="FSM.h" />
+    <ClInclude Include="GameEngine.h" />
+    <ClInclude Include="Hero.h" />
+    <ClInclude Include="Map.h" />
+    <ClInclude Include="MapEnemies.h" />
+    <ClInclude Include="MapObjects.h" />
+    <ClInclude Include="Object.h" />
+    <ClInclude Include="Ranking.h" />
+    <ClInclude Include="SDLHelpers.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\character.bmp" />
+    <Image Include="images\enemigo.bmp" />
+    <Image Include="images\enemy.bmp" />
+    <Image Include="images\Exit.bmp" />
+    <Image Include="images\GameMenu.bmp" />
+    <Image Include="images\GameOver.bmp" />
+    <Image Include="images\grass1.bmp" />
+    <Image Include="images\grass2.bmp" />
+    <Image Include="images\grass3.bmp" />
+    <Image Include="images\grass4.bmp" />
+    <Image Include="images\life.bmp" />
+    <Image Include="images\Load.bmp" />
+    <Image Include="images\objects\bar.bmp" />
+    <Image Include="images\objects\fireball.bmp" />
+    <Image Include="images\objects\fireball.png" />
+    <Image Include="images\objects\Sense títol.png" />
+    <Image Include="images\objects\sword.bmp" />
+    <Image Include="images\objects\wepicon-axe.bmp" />
+    <Image Include="images\objects\wepicon-bow.bmp" />
+    <Image Include="images\objects\wepicon-helm.bmp" />
+    <Image Include="images\objects\wepicon-knife.bmp" />
+    <Image Include="images\objects\wepicon-mace.bmp" />
+    <Image Include="images\objects\wepicon-shield.bmp" />
+    <Image Include="images\objects\wepicon-spear.bmp" />
+    <Image Include="images\objects\wepicon-sword.bmp" />
+    <Image Include="images\roadbottomleft.bmp" />
+    <Image Include="images\roadbottomright.bmp" />
+    <Image Include="images\roadh.bmp" />
+    <Image Include="images\roadtopleft.bmp" />
+    <Image Include="images\roadtopright.bmp" />
+    <Image Include="images\roadv.bmp" />
+    <Image Include="images\Save.bmp" />
+    <Image Include="images\snow1.bmp" />
+    <Image Include="images\snow2.bmp" />
+    <Image Include="images\Start.bmp" />
+    <Image Include="images\terrain\dirt.bmp" />
+    <Image Include="images\terrain\dirtb.bmp" />
+    <Image Include="images\terrain\dirtibl.bmp" />
+    <Image Include="images\terrain\dirtibr.bmp" />
+    <Image Include="images\terrain\dirtitl.bmp" />
+    <Image Include="images\terrain\dirtitr.bmp" />
+    <Image Include="images\terrain\dirtl.bmp" />
+    <Image Include="images\terrain\dirtobl.bmp" />
+    <Image Include="images\terrain\dirtobr.bmp" />
+    <Image Include="images\terrain\dirtotl.bmp" />
+    <Image Include="images\terrain\dirtotr.bmp" />
+    <Image Include="images\terrain\dirtr.bmp" />
+    <Image Include="images\terrain\dirtt.bmp" />
+    <Image Include="images\terrain\snowbottom.bmp" />
+    <Image Include="images\terrain\snowibl.bmp" />
+    <Image Include="images\terrain\snowibr.bmp" />
+    <Image Include="images\terrain\snowitl.bmp" />
+    <Image Include="images\terrain\snowitr.bmp" />
+    <Image Include="images\terrain\snowleft.bmp" />
+    <Image Include="images\terrain\snowobl.bmp" />
+    <Image Include="images\terrain\snowobr.bmp" />
+    <Image Include="images\terrain\snowotl.bmp" />
+    <Image Include="images\terrain\snowotr.bmp" />
+    <Image Include="images\terrain\snowright.bmp" />
+    <Image Include="images\terrain\snowtop.bmp" />
+    <Image Include="images\vacio.bmp" />
+    <Image Include="images\Win.bmp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

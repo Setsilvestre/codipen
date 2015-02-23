@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de código fuente">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Character.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="FSM.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="GameEngine.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Hero.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="MapEnemies.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="MapObjects.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="Ranking.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+    <ClCompile Include="SDLHelpers.cpp">
+      <Filter>Archivos de código fuente</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Character.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="FSM.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="GameEngine.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Hero.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="MapEnemies.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="MapObjects.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="Ranking.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="SDLHelpers.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\character.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\enemigo.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\enemy.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\Exit.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\GameMenu.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\GameOver.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\grass1.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\grass2.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\grass3.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\grass4.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\life.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\Load.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\roadbottomleft.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\roadbottomright.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\roadh.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\roadtopleft.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\roadtopright.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\roadv.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\Save.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\snow1.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\snow2.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\Start.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\vacio.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\Win.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\objects\bar.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\objects\fireball.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\objects\fireball.png">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\objects\Sense títol.png">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\objects\sword.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\objects\wepicon-axe.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\objects\wepicon-bow.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\objects\wepicon-helm.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\objects\wepicon-knife.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\objects\wepicon-mace.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\objects\wepicon-shield.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\objects\wepicon-spear.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\objects\wepicon-sword.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\terrain\dirt.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\terrain\dirtb.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\terrain\dirtibl.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\terrain\dirtibr.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\terrain\dirtitl.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\terrain\dirtitr.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\terrain\dirtl.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\terrain\dirtobl.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\terrain\dirtobr.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\terrain\dirtotl.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\terrain\dirtotr.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\terrain\dirtr.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\terrain\dirtt.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\terrain\snowbottom.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\terrain\snowibl.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\terrain\snowibr.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\terrain\snowitl.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\terrain\snowitr.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\terrain\snowleft.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\terrain\snowobl.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\terrain\snowobr.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\terrain\snowotl.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\terrain\snowotr.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\terrain\snowright.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+    <Image Include="images\terrain\snowtop.bmp">
+      <Filter>Archivos de recursos</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

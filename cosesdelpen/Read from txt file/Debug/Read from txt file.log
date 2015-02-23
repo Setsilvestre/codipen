@@ -1,0 +1,21 @@
+﻿Build started 22/02/2015 16:36:31.
+     1>Project "F:\OpenGL\Read from txt file\Read from txt file.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt DynamicArray.cpp
+         DynamicArray.cpp
+     1>f:\opengl\read from txt file\dynamicarray.cpp(22): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\OpenGL\Debug\Read from txt file.exe" /INCREMENTAL /NOLOGO sdl2.lib sdl2main.lib opengl32.lib glew32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\OpenGL\Debug\Read from txt file.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\OpenGL\Debug\Read from txt file.lib" /MACHINE:X86 Debug\DynamicArray.obj
+         Debug\ErrorManagement.obj
+         "Debug\Ex5-Main.obj"
+         Debug\FPSLimiter.obj
+         Debug\Game.obj
+         Debug\GLSLProgram.obj
+         Debug\OpenGLBuffers.obj
+         Debug\Window.obj
+         Read from txt file.vcxproj -> F:\OpenGL\Debug\Read from txt file.exe
+     1>Done Building Project "F:\OpenGL\Read from txt file\Read from txt file.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.77

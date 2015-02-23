@@ -1,0 +1,71 @@
+﻿Compilación iniciada a las 12/01/2015 23:05:57.
+     1>Proyecto "C:\Users\Xavi\Desktop\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.vcxproj" en el nodo 2 (Build destinos).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GameEngine.cpp
+         GameEngine.cpp
+     1>c:\users\xavi\desktop\consoleapplication2\consoleapplication2\gameengine.cpp(151): warning C4244: 'inicializando' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\xavi\desktop\consoleapplication2\consoleapplication2\gameengine.cpp(153): warning C4244: 'argumento' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\xavi\desktop\consoleapplication2\consoleapplication2\gameengine.cpp(168): warning C4244: 'inicializando' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\xavi\desktop\consoleapplication2\consoleapplication2\gameengine.cpp(169): warning C4244: 'argumento' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\xavi\desktop\consoleapplication2\consoleapplication2\gameengine.cpp(183): warning C4244: 'inicializando' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\xavi\desktop\consoleapplication2\consoleapplication2\gameengine.cpp(185): warning C4244: 'argumento' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\xavi\desktop\consoleapplication2\consoleapplication2\gameengine.cpp(192): warning C4244: 'inicializando' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\xavi\desktop\consoleapplication2\consoleapplication2\gameengine.cpp(193): warning C4244: 'argumento' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\xavi\desktop\consoleapplication2\consoleapplication2\gameengine.cpp(207): warning C4244: 'inicializando' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\xavi\desktop\consoleapplication2\consoleapplication2\gameengine.cpp(208): warning C4244: 'inicializando' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\xavi\desktop\consoleapplication2\consoleapplication2\gameengine.cpp(209): warning C4244: 'argumento' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\xavi\desktop\consoleapplication2\consoleapplication2\gameengine.cpp(242): warning C4244: 'inicializando' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\xavi\desktop\consoleapplication2\consoleapplication2\gameengine.cpp(245): warning C4244: 'argumento' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\xavi\desktop\consoleapplication2\consoleapplication2\gameengine.cpp(248): warning C4244: 'argumento' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\xavi\desktop\consoleapplication2\consoleapplication2\gameengine.cpp(251): warning C4244: 'argumento' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\xavi\desktop\consoleapplication2\consoleapplication2\gameengine.cpp(255): warning C4244: 'argumento' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\xavi\desktop\consoleapplication2\consoleapplication2\gameengine.cpp(256): warning C4244: 'argumento' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\xavi\desktop\consoleapplication2\consoleapplication2\gameengine.cpp(259): warning C4244: 'argumento' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\xavi\desktop\consoleapplication2\consoleapplication2\gameengine.cpp(289): warning C4244: 'inicializando' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\xavi\desktop\consoleapplication2\consoleapplication2\gameengine.cpp(291): warning C4244: 'argumento' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\xavi\desktop\consoleapplication2\consoleapplication2\gameengine.cpp(294): warning C4244: 'argumento' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\xavi\desktop\consoleapplication2\consoleapplication2\gameengine.cpp(297): warning C4244: 'argumento' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\xavi\desktop\consoleapplication2\consoleapplication2\gameengine.cpp(301): warning C4244: 'argumento' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\xavi\desktop\consoleapplication2\consoleapplication2\gameengine.cpp(302): warning C4244: 'argumento' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\xavi\desktop\consoleapplication2\consoleapplication2\gameengine.cpp(305): warning C4244: 'argumento' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\xavi\desktop\consoleapplication2\consoleapplication2\gameengine.cpp(334): warning C4244: 'inicializando' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\xavi\desktop\consoleapplication2\consoleapplication2\gameengine.cpp(337): warning C4244: 'argumento' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\xavi\desktop\consoleapplication2\consoleapplication2\gameengine.cpp(340): warning C4244: 'argumento' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\xavi\desktop\consoleapplication2\consoleapplication2\gameengine.cpp(343): warning C4244: 'argumento' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\xavi\desktop\consoleapplication2\consoleapplication2\gameengine.cpp(347): warning C4244: 'argumento' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\xavi\desktop\consoleapplication2\consoleapplication2\gameengine.cpp(348): warning C4244: 'argumento' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\xavi\desktop\consoleapplication2\consoleapplication2\gameengine.cpp(351): warning C4244: 'argumento' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\xavi\desktop\consoleapplication2\consoleapplication2\gameengine.cpp(358): warning C4244: 'inicializando' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\xavi\desktop\consoleapplication2\consoleapplication2\gameengine.cpp(360): warning C4244: 'argumento' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\xavi\desktop\consoleapplication2\consoleapplication2\gameengine.cpp(363): warning C4244: 'argumento' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\xavi\desktop\consoleapplication2\consoleapplication2\gameengine.cpp(366): warning C4244: 'argumento' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\xavi\desktop\consoleapplication2\consoleapplication2\gameengine.cpp(370): warning C4244: 'argumento' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\xavi\desktop\consoleapplication2\consoleapplication2\gameengine.cpp(371): warning C4244: 'argumento' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\xavi\desktop\consoleapplication2\consoleapplication2\gameengine.cpp(374): warning C4244: 'argumento' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\xavi\desktop\consoleapplication2\consoleapplication2\gameengine.cpp(403): warning C4244: 'inicializando' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\xavi\desktop\consoleapplication2\consoleapplication2\gameengine.cpp(404): warning C4244: 'inicializando' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\xavi\desktop\consoleapplication2\consoleapplication2\gameengine.cpp(406): warning C4244: 'argumento' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\xavi\desktop\consoleapplication2\consoleapplication2\gameengine.cpp(409): warning C4244: 'argumento' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\xavi\desktop\consoleapplication2\consoleapplication2\gameengine.cpp(412): warning C4244: 'argumento' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\xavi\desktop\consoleapplication2\consoleapplication2\gameengine.cpp(416): warning C4244: 'argumento' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\xavi\desktop\consoleapplication2\consoleapplication2\gameengine.cpp(417): warning C4244: 'argumento' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\xavi\desktop\consoleapplication2\consoleapplication2\gameengine.cpp(420): warning C4244: 'argumento' : conversión de 'double' a 'int'; posible pérdida de datos
+     1>c:\users\xavi\desktop\consoleapplication2\consoleapplication2\gameengine.cpp(432): warning C4244: '=' : conversión de 'double' a 'int'; posible pérdida de datos
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Xavi\Desktop\ConsoleApplication2\Debug\ConsoleApplication2.exe" /INCREMENTAL /NOLOGO sdl.lib sdlmain.lib SDL_TTF.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Xavi\Desktop\ConsoleApplication2\Debug\ConsoleApplication2.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Xavi\Desktop\ConsoleApplication2\Debug\ConsoleApplication2.lib" /MACHINE:X86 /SAFESEH:NO Debug\Character.obj
+         Debug\Enemy.obj
+         Debug\FSM.obj
+         Debug\GameEngine.obj
+         Debug\Hero.obj
+         Debug\Map.obj
+         Debug\MapEnemies.obj
+         Debug\MapObjects.obj
+         Debug\Object.obj
+         Debug\Ranking.obj
+         Debug\SDLHelpers.obj
+         ConsoleApplication2.vcxproj -> C:\Users\Xavi\Desktop\ConsoleApplication2\Debug\ConsoleApplication2.exe
+     1>Compilación del proyecto terminada "C:\Users\Xavi\Desktop\ConsoleApplication2\ConsoleApplication2\ConsoleApplication2.vcxproj" (Build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:00.83
